@@ -200,7 +200,7 @@ h3 {
 }
 
 .snapshot2 {
-  margin-left: 0px;
+  margin-left: 0;
   margin-top: 120px;
 }
 
@@ -210,7 +210,7 @@ h6 {
   margin-top: 10px;
   font-weight: 700;
   font-size: 32px;
-  line-height: 44px
+  line-height: 44px;
 }
 
 .bullets2 {
@@ -223,7 +223,6 @@ h6 {
 }
 
 .but1 {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -242,7 +241,6 @@ h6 {
 
 .arrows {
   height: 24px;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -282,10 +280,9 @@ h6 {
 
 .js {
   margin-top: 30px;
-  margin-left: 0px;
+  margin-left: 0;
   position: absolute;
   height: 24px;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -301,12 +298,11 @@ h6 {
 .right1 {
   height: 15px;
   margin-left: 223px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
-h8 {
+.frameworks {
   height: 24px;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -318,16 +314,15 @@ h8 {
   justify-items: space-between;
 }
 
-h9 {
+.skills1 {
   height: 24px;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   display: flex;
   color: #000;
-  margin-top: 100x;
+  margin-top: 0;
   margin-left: 10px;
   justify-items: space-between;
 }
