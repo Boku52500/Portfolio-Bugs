@@ -125,7 +125,7 @@ h3 {
   margin-left: 2px;
 }
 
-.second-para > h4 {
+.second-para > p {
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -170,16 +170,11 @@ h3 {
   letter-spacing: 0.03em;
 }
 
-.alltext {
+.alltext ul {
+  list-style-type: none;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 12px;
-  background: #ebebff;
-  border-radius: 8px;
-  color: #6070ff;
-  gap: px;
-  letter-spacing: 0.03em;
+  gap: 20px;
+  margin-left: -30px;
 }
 
 .but {
@@ -223,7 +218,7 @@ h6 {
 }
 
 .but1 {
-  font-style: normal;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -233,10 +228,43 @@ h6 {
   text-align: center;
   letter-spacing: 0.03em;
   margin-top: 60px;
-  border-radius: 10px;
-  height: 50px;
+  border-radius: 7px;
+  height: 40px;
   border-color: #396df2;
   border-width: 1px;
+  background-color: white;
+}
+
+.but1:hover {
+  color:white;
+  background-color: rgb(136, 136, 255);
+}
+
+.but1:active {
+  color: white;
+  background-color: #0c2b7a;
+}
+
+.but1:disabled {
+  color: #a2b0c9;
+  background-color: white;
+  border-color: #a2b0c9;
+}
+
+.but:hover {
+  color:white;
+  background-color: rgb(136, 136, 255);
+}
+
+.but:active {
+  color: white;
+  background-color: #0c2b7a;
+}
+
+.but:disabled {
+  color: #a2b0c9;
+  background-color: white;
+  border-color: #a2b0c9;
 }
 
 .arrows {
@@ -336,3 +364,9 @@ h6 {
   display: flex;
   margin-top: 20px;
 }
+
+main {
+  margin-left: 45px;
+  width: 300px;
+}
+
