@@ -89,7 +89,7 @@ h2 {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
   margin-top: 10px;
 }
 
@@ -106,7 +106,7 @@ h3 {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
   gap: 25px;
   align-items: center;
   margin-left: 0px;
@@ -140,7 +140,7 @@ ul {
   flex-direction: row;
   align-items: center;
   padding: 4px 12px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   color: #6070FF;
   gap: px;
@@ -152,7 +152,7 @@ ul {
   flex-direction: row;
   align-items: center;
   padding: 4px 12px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   color: #6070FF;
   gap: px;
@@ -164,7 +164,7 @@ ul {
   flex-direction: row;
   align-items: center;
   padding: 4px 12px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   color: #6070FF;
   gap: px;
@@ -176,7 +176,7 @@ ul {
   flex-direction: row;
   align-items: center;
   padding: 4px 12px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   color: #6070FF;
   gap: px;
@@ -189,7 +189,7 @@ ul {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  color: #396DF2;
+  color: #396df2;
   display: flex;
   align-items: center;
   text-align: center;
@@ -197,7 +197,7 @@ ul {
   margin-top: 40px;
   border-radius: 10px;
   height: 50px;
-  border-color: #396DF2;
+  border-color: #396df2;
   border-width: 1px;
 }
 
@@ -231,7 +231,7 @@ h6 {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  color: #396DF2;
+  color: #396df2;
   display: flex;
   align-items: center;
   text-align: center;
@@ -239,7 +239,7 @@ h6 {
   margin-top: 60px;
   border-radius: 10px;
   height: 50px;
-  border-color: #396DF2;
+  border-color: #396df2;
   border-width: 1px;
 }
 
@@ -251,7 +251,7 @@ h6 {
   font-size: 20px;
   line-height: 24px;
   display: flex;
-  color: #000000;
+  color: #000;
   margin-top: 30px;
   margin-left: 10px;
   justify-items: space-between;
@@ -315,7 +315,7 @@ h8 {
   font-size: 20px;
   line-height: 24px;
   display: flex;
-  color: #000000;
+  color: #000;
   margin-top: 280px;
   margin-left: 10px;
   justify-items: space-between;
@@ -329,7 +329,7 @@ h9 {
   font-size: 20px;
   line-height: 24px;
   display: flex;
-  color: #000000;
+  color: #000;
   margin-top: 100x;
   margin-left: 10px;
   justify-items: space-between;
