@@ -236,7 +236,7 @@ h6 {
 }
 
 .but1:hover {
-  color:white;
+  color: white;
   background-color: rgb(136, 136, 255);
 }
 
@@ -252,7 +252,7 @@ h6 {
 }
 
 .but:hover {
-  color:white;
+  color: white;
   background-color: rgb(136, 136, 255);
 }
 
@@ -369,4 +369,3 @@ main {
   margin-left: 45px;
   width: 300px;
 }
-
