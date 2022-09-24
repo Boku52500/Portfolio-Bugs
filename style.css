@@ -64,6 +64,10 @@ body {
   margin-top: -25px;
 }
 
+ul {
+  margin: 0;
+}
+
 .icons ul {
   display: flex;
   gap: 16px;
@@ -81,7 +85,7 @@ a {
 }
 
 .snapshot {
-  margin-left: 0px;
+  margin-left: 0;
   margin-top: 300px;
 }
 
@@ -109,24 +113,19 @@ h3 {
   color: #7a869a;
   gap: 25px;
   align-items: center;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .bullets {
   display: flex;
   align-items: center;
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
   margin-top: -30px;
   margin-left: 2px;
 }
 
-ul {
-  margin: 0;
-}
-
-.second-para>h4 {
-  font-family: 'Poppins';
+.second-para > h4 {
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -184,7 +183,6 @@ ul {
 }
 
 .but {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -207,7 +205,6 @@ ul {
 }
 
 h6 {
-  font-family: 'Poppins';
   font-style: normal;
   color: #172b4d;
   margin-top: 10px;
