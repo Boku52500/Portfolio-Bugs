@@ -391,8 +391,7 @@ form {
 }
 
 h4 {
-  font-family: "Poppins";
-  font-style: normal;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -401,8 +400,7 @@ h4 {
 }
 
 .contact-para {
-  font-family: "Poppins";
-  font-style: normal;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -417,7 +415,6 @@ h4 {
   border-radius: 8px;
   height: 48px;
   width: 327px;
-  border-radius: 8px;
   margin-bottom: 20px;
   padding-inline: 16px;
   color: #000205;
@@ -429,7 +426,7 @@ h4 {
   border-radius: 8px;
   padding-inline: 16px;
   padding-top: 16px;
-  color: #b3baC5;
+  color: #b3bac5;
 }
 
 .submit {
