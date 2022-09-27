@@ -377,6 +377,7 @@ main {
 }
 
 form {
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   background-image: url(contact-background.png);
@@ -385,7 +386,7 @@ form {
   background-position-x: 200px;
   align-items: center;
   background-color: #6070ff;
-  border-top-left-radius: 80px;
+  border-top-left-radius: 100px;
   margin-left: -50px;
 }
 
@@ -418,12 +419,17 @@ h4 {
   width: 327px;
   border-radius: 8px;
   margin-bottom: 20px;
+  padding-inline: 16px;
+  color: #000205;
 }
 
 .text-area {
   height: 170px;
   width: 327px;
   border-radius: 8px;
+  padding-inline: 16px;
+  padding-top: 16px;
+  color: #b3baC5;
 }
 
 .submit {
@@ -440,5 +446,5 @@ h4 {
   margin-bottom: 40px;
   color: #6070ff;
   width: 140px;
-  margin-right: 195px;
+  margin-right: 220px;
 }
