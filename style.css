@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap");
 
 body {
   background-image: url("Pictures/header-shapes mobile.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
 }
 
@@ -218,7 +218,7 @@ h6 {
 }
 
 .but1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -368,4 +368,77 @@ h6 {
 main {
   margin-left: 45px;
   width: 300px;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 375px;
+  padding-top: 100px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-image: url(contact-background.png);
+  background-size: 53%;
+  background-repeat: no-repeat;
+  background-position-x: 200px;
+  align-items: center;
+  background-color: #6070ff;
+  border-top-left-radius: 80px;
+  margin-left: -50px;
+}
+
+h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  padding-top: 27px;
+  color: white;
+}
+
+.contact-para {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: -20px;
+  width: 330px;
+  color: white;
+}
+
+.input {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  height: 48px;
+  width: 327px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.text-area {
+  height: 170px;
+  width: 327px;
+  border-radius: 8px;
+}
+
+.submit {
+  display: flex;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: #396df2;
+  margin-top: 21px;
+  padding: 14px;
+  font-size: 17px;
+  font-weight: 600;
+  background-color: white;
+  margin-bottom: 40px;
+  color: #6070ff;
+  width: 140px;
+  margin-right: 195px;
 }
