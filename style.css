@@ -445,3 +445,41 @@ h4 {
   width: 140px;
   margin-right: 220px;
 }
+
+.frames-end {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact {
+    grid-template-columns: 100vw;
+  }
+
+  .container-last {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100vw;
+    gap: 70px;
+  }
+
+  .js { 
+    display: none;
+ }
+
+ .frames-end{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  list-style: none;
+ }
+
+ .frames-end ul {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  list-style: none;
+ }
+
+
+
+}
