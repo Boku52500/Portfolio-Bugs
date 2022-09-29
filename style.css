@@ -6,6 +6,7 @@ body {
   background-size: 100%;
   font-family: "Poppins", sans-serif;
   font-style: normal;
+  overflow-x: hidden;
 }
 
 .wrapper {
@@ -373,7 +374,7 @@ main {
 .contact {
   display: grid;
   grid-template-columns: 375px;
-  padding-top: 100px;
+  padding-top: 40px;
 }
 
 form {
@@ -450,6 +451,12 @@ h4 {
   display: none;
 }
 
+.frames-images {
+  display: none;
+}
+
+
+
 @media only screen and (min-width: 768px) {
   .contact {
     grid-template-columns: 100vw;
@@ -459,27 +466,48 @@ h4 {
     display: grid;
     grid-template-columns: 40% 60%;
     width: 100vw;
-    gap: 70px;
+    gap: 20px;
   }
 
   .js { 
     display: none;
  }
 
- .frames-end{
+ .frames-images{
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
   list-style: none;
  }
 
- .frames-end ul {
+ .frames-images ul {
   display: flex;
   justify-content: flex-start;
   gap: 10px;
   list-style: none;
+  margin-top: 30px;
+  margin-left: -40px;
+ }
+ 
+ .arrows {
+  padding-top: 40px;
  }
 
+ .frame {
+  margin-top: -250px;
+  background-size: 100%;
+ }
 
+ .scroll-x{
+overflow-x: hidden;
+ }
 
+ .last {
+  width: 300px;
+ }
+
+ form {
+  
+ }
+ 
 }
