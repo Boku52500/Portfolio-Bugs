@@ -374,7 +374,12 @@ main {
 .contact {
   display: grid;
   grid-template-columns: 375px;
-  padding-top: 40px;
+  padding-top: 80px;
+  margin-left: 40px;
+}
+
+.move-last {
+  margin-left: 30px;
 }
 
 form {
@@ -555,7 +560,7 @@ h4 {
     width: 600px;
     margin-left: 10%;
   }
-  
+
 }
 
 @media only screen and (min-width: 1280px) {
