@@ -126,7 +126,7 @@ h3 {
   margin-left: 2px;
 }
 
-.second-para > p {
+.second-para>p {
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -491,6 +491,7 @@ h4 {
     width: 100vw;
     gap: 20px;
     justify-content: center;
+    margin-left: 49px;
   }
 
   .js {
@@ -523,6 +524,9 @@ h4 {
   }
 
   .scroll-x {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     overflow-x: hidden;
   }
 
@@ -559,28 +563,25 @@ h4 {
     width: 600px;
     margin-left: 10%;
   }
-}
-
-@media only screen and (min-width: 1280px) {
-  .container-last {
-    margin-left: 160px;
-    gap: -20px;
-  }
 
   .last {
-    margin-left: -70px;
+    margin-left: -30px;
   }
 
   .aboutme {
     width: 500px;
   }
 
-  .headline-bio p {
-    width: 450px;
+  .headline-bio {
+    width: 33vw;
+  }
+
+  .headline {
+    height: 70vh;
   }
 
   .headline-bio1 p {
-    width: 750px;
+    width: 60vw;
   }
 
   .headline-heading {
@@ -603,15 +604,32 @@ h4 {
 
   .page-2-desktop {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 40% 40%;
     grid-template-rows: 1fr;
-    gap: 550px;
-    margin-top: 200px;
-    margin-left: 150px;
+    width: 80vw;
+    margin-top: 60%;
+    gap: 124px;
+    justify-items: stretch;
+    padding-left: 25%;
+    align-items: center;
+    justify-content: space-evenly;
   }
 
+  .lets-connect {
+    padding-top: 10px;
+  }
+
+  main {
+    margin: 0;
+  }
+
+  .desktop-poster1 {
+    width: 40vw;
+  }
+
+
   .second-grid {
-    width: 500px;
+    width: 40vw;
     margin-top: 30px;
   }
 
@@ -625,16 +643,37 @@ h4 {
 
   .page-3-desktop {
     display: grid;
-    grid-template-columns: 60% 40%;
-    gap: 450px;
-    margin-left: 160px;
-    margin-top: 170px;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 1fr;
+    width: 80vw;
+    margin-top: 40%;
+    gap: 150px;
+    justify-items: stretch;
+    padding-left: 10%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .page-3-desktop p {
+    width: 90%;
+  }
+
+  .but {
+    width: 120px;
+  }
+
+  .alltext1 ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-left: 0;
   }
 
   .second-grid1 {
-    width: 450px;
-    padding-right: 0;
-    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 8%;
+    width: 50vw;
   }
 
   .second-grid1 h2 {
@@ -659,41 +698,41 @@ h4 {
 
   .page-4-desktop {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 40% 40%;
     grid-template-rows: 1fr;
-    gap: 550px;
-    margin-top: 200px;
-    margin-left: 150px;
-  }
-
-  .page-4-desktop .second-grid {
-    width: 470px;
+    width: 80vw;
+    margin-top: 40%;
+    gap: 124px;
+    justify-items: stretch;
+    padding-left: 10%;
+    align-items: center;
+    justify-content: space-evenly;
   }
 
   .page-4-desktop .bullets1,
   h3 {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 24px;
     font-weight: 500;
   }
 
   .page-2-desktop .bullets1,
   h3 {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 24px;
     font-weight: 500;
   }
 
   .page-3-desktop .bullets1,
   h3 {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 24px;
     font-weight: 500;
   }
 
   .page-5-desktop .bullets1,
   h3 {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 24px;
     font-weight: 500;
   }
@@ -704,16 +743,18 @@ h4 {
 
   .page-5-desktop {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 40% 40%;
     grid-template-rows: 1fr;
-    gap: 500px;
-    margin-top: 200px;
-    margin-left: 150px;
+    width: 80vw;
+    margin-top: 40%;
+    gap: 150px;
+    justify-items: stretch;
+    padding-left: 10%;
+    align-items: center;
+    justify-content: space-evenly;
   }
 
-  .page-5-desktop .second-grid1 {
-    width: 470px;
-  }
+  .page-5-desktop .second-grid1 {}
 
   .headline-1 {
     margin-top: 200px;
@@ -755,5 +796,45 @@ h4 {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .page-5-desktop p {
+    width: 70%;
+  }
+
+  .container-last {
+    padding-left: 20%;
+  }
+
+  .down {
+    margin-left: 310px;
+  }
+
+  .but1 {
+    margin-top: 20px;
+  }
+
+  .right {
+    margin-left: 300px;
+  }
+
+  .right1 {
+    margin-left: 375px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .but1 {
+    margin-top: -200px;
+  }
+
+  .container-last {
+    padding-left: 150px;
+  }
+
+  .page-3-desktop p {
+    width: 35vw;
   }
 }
