@@ -126,7 +126,7 @@ h3 {
   margin-left: 2px;
 }
 
-.second-para > p {
+.second-para>p {
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -670,25 +670,29 @@ h4 {
     width: 470px;
   }
 
-  .page-4-desktop .bullets1, h3 {
+  .page-4-desktop .bullets1,
+  h3 {
     font-size: 18px;
     line-height: 24px;
     font-weight: 500;
   }
 
-  .page-2-desktop .bullets1, h3 {
+  .page-2-desktop .bullets1,
+  h3 {
     font-size: 18px;
     line-height: 24px;
     font-weight: 500;
   }
 
-  .page-3-desktop .bullets1, h3 {
+  .page-3-desktop .bullets1,
+  h3 {
     font-size: 18px;
     line-height: 24px;
     font-weight: 500;
   }
 
-  .page-5-desktop .bullets1, h3 {
+  .page-5-desktop .bullets1,
+  h3 {
     font-size: 18px;
     line-height: 24px;
     font-weight: 500;
