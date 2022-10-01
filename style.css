@@ -8,6 +8,7 @@ body {
   overflow-x: hidden;
   margin: 0;
   background-color: #e5e5e5;
+  overflow-x: hidden;
 }
 
 .page-1 {
@@ -452,6 +453,15 @@ main {
   padding-top: 80px;
 }
 
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  padding-top: 27px;
+  color: white;
+}
+
 .contact h4 {
   margin-left: -10%;
 }
@@ -475,15 +485,6 @@ form {
   justify-items: center;
   padding-left: 70px;
   margin-top: -50%;
-}
-
-h4 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  padding-top: 27px;
-  color: white;
 }
 
 .contact-para {
@@ -965,10 +966,6 @@ h4 {
     margin-left: 310px;
   }
 
-  .but1 {
-    margin-top: 20px;
-  }
-
   .right {
     margin-left: 300px;
   }
@@ -1056,13 +1053,6 @@ h4 {
     justify-content: start;
     border-radius: 22px;
     background-color: white;
-  }
-
-  .second-grid1 {
-    width: 40vw;
-    margin-top: 30px;
-    padding-bottom: 20px;
-    padding-left: 9%;
   }
 
   .second-grid3 {
