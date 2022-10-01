@@ -501,6 +501,11 @@ h4 {
     margin-left: 49px;
   }
 
+  main {
+    margin-left: unset;
+    margin-bottom: unset;
+  }
+
   .js {
     display: none;
   }
@@ -615,7 +620,6 @@ h4 {
     display: grid;
     grid-template-columns: 40% 40%;
     grid-template-rows: 1fr;
-    width: 85vw;
     margin-top: 20%;
     gap: 15%;
     justify-items: stretch;
@@ -628,27 +632,49 @@ h4 {
   }
 
   .page-2-desktop p {
-    width: 30vw;
+    width: 36vw;
   }
 
   .lets-connect {
     padding-top: 10px;
   }
 
-  main {
-    margin: 0;
-  }
-
   .desktop-poster1 {
     display: flex;
-    padding: 20px;
-    width: 40vw;
+    padding: 6%;
+    width: 37vw;
+  }
+
+  .desktop-poster2 {
+    display: flex;
+    padding: 11%;
+    width: 37vw;
+  }
+
+  .desktop-poster3 {
+    display: flex;
+    padding: 17px;
+    width: 34vw;
+  }
+
+  .desktop-poster4 {
+    display: flex;
+    padding: 17%;
+    width: 35vw;
   }
 
   .second-grid {
     width: 40vw;
     margin-top: 30px;
     padding-bottom: 20px;
+    margin-left: -4%;
+  }
+
+  .second-grid3 {
+    width: 40vw;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    margin-left: -8%;
   }
 
   .second-grid h2 {
@@ -663,7 +689,6 @@ h4 {
     display: grid;
     grid-template-columns: 40% 40%;
     grid-template-rows: 1fr;
-    width: 85vw;
     margin-top: 20%;
     gap: 7%;
     justify-items: stretch;
@@ -721,7 +746,6 @@ h4 {
     display: grid;
     grid-template-columns: 40% 40%;
     grid-template-rows: 1fr;
-    width: 85vw;
     margin-top: 20%;
     gap: 11%;
     justify-items: stretch;
@@ -769,7 +793,6 @@ h4 {
     display: grid;
     grid-template-columns: 40% 40%;
     grid-template-rows: 1fr;
-    width: 85vw;
     margin-top: 20%;
     gap: 7%;
     justify-items: stretch;
@@ -825,6 +848,11 @@ h4 {
 }
 
 @media only screen and (min-width: 1024px) {
+  main {
+    margin-left: unset;
+    margin-top: unset;
+  }
+  
   .page-5-desktop p {
     width: 39vw;
   }
@@ -853,9 +881,20 @@ h4 {
 
 
 @media only screen and (min-width: 1440px) {
+  main {
+    margin-left: unset;
+    margin-top: unset;
+  }
 
   .poster-test {
     margin-left: 30px;
+  }
+
+  .desktop-poster4 {
+    display: flex;
+    padding: 8%;
+    width: 40vw;
+    margin-left: -11%;
   }
 
   .container-last {
@@ -874,6 +913,48 @@ h4 {
   .page-3-desktop p {
     width: 35vw;
   }
+
+  .page-2-desktop {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 1fr;
+    margin-top: 20%;
+    gap: 16%;
+    justify-items: stretch;
+    padding-left: 0;
+    align-items: center;
+    align-content: space-between;
+    justify-content: start;
+    border-radius: 22px;
+    background-color: white;
+}
+
+.second-grid1 {
+  width: 40vw;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 9%;
+}
+
+.second-grid3 {
+  width: 33vw;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  margin-left: 4%;
+}
+
+.desktop-poster3 {
+  display: flex;
+  padding: 25px;
+  width: 34vw;
+}
+
+.second-grid1 {
+  width: 40vw;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 10%;
+}
 }
 
 
