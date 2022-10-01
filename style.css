@@ -7,6 +7,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   overflow-x: hidden;
+  margin: 0;
 }
 
 .wrapper {
@@ -367,8 +368,13 @@ h6 {
 }
 
 main {
+  display: grid;
+  grid-template-columns: 80%;
+  background-color: #e5e5e5;
+  justify-content: center;
+  margin-top: 10%;
   margin-left: 45px;
-  width: 300px;
+  width: 100%;
 }
 
 .contact {
@@ -470,6 +476,7 @@ h4 {
 
 .page-2 {
   margin-top: -150px;
+  background-color: white;
 }
 
 .page-3-desktop {
@@ -536,6 +543,7 @@ h4 {
 
   .page-1 {
     background-image: url(Header-1.svg);
+    height: 97vh;
   }
 
   .header img {
@@ -557,6 +565,7 @@ h4 {
     width: 100%;
     margin-top: -110px;
     margin-left: -25px;
+    height: 50px;
   }
 
   .logo {
@@ -606,13 +615,20 @@ h4 {
     display: grid;
     grid-template-columns: 40% 40%;
     grid-template-rows: 1fr;
-    width: 80vw;
-    margin-top: 60%;
-    gap: 124px;
+    width: 85vw;
+    margin-top: 20%;
+    gap: 15%;
     justify-items: stretch;
-    padding-left: 25%;
+    padding-left: 0;
     align-items: center;
-    justify-content: space-evenly;
+    align-content: space-between;
+    justify-content: start;
+    border-radius: 22px;
+    background-color: white;
+  }
+
+  .page-2-desktop p {
+    width: 30vw;
   }
 
   .lets-connect {
@@ -624,12 +640,15 @@ h4 {
   }
 
   .desktop-poster1 {
+    display: flex;
+    padding: 20px;
     width: 40vw;
   }
 
   .second-grid {
     width: 40vw;
     margin-top: 30px;
+    padding-bottom: 20px;
   }
 
   .second-grid h2 {
@@ -644,13 +663,16 @@ h4 {
     display: grid;
     grid-template-columns: 40% 40%;
     grid-template-rows: 1fr;
-    width: 80vw;
-    margin-top: 40%;
-    gap: 150px;
+    width: 85vw;
+    margin-top: 20%;
+    gap: 7%;
     justify-items: stretch;
-    padding-left: 10%;
+    padding-left: 0;
     align-items: center;
-    justify-content: space-evenly;
+    align-content: space-between;
+    justify-content: start;
+    border-radius: 22px;
+    background-color: white;
   }
 
   .page-3-desktop p {
@@ -669,10 +691,10 @@ h4 {
   }
 
   .second-grid1 {
-    display: flex;
-    flex-direction: column;
-    padding-left: 8%;
-    width: 50vw;
+    width: 40vw;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
   }
 
   .second-grid1 h2 {
@@ -699,13 +721,16 @@ h4 {
     display: grid;
     grid-template-columns: 40% 40%;
     grid-template-rows: 1fr;
-    width: 80vw;
-    margin-top: 40%;
-    gap: 124px;
+    width: 85vw;
+    margin-top: 20%;
+    gap: 11%;
     justify-items: stretch;
-    padding-left: 10%;
+    padding-left: 0;
     align-items: center;
-    justify-content: space-evenly;
+    align-content: space-between;
+    justify-content: start;
+    border-radius: 22px;
+    background-color: white;
   }
 
   .page-4-desktop .bullets1,
@@ -744,13 +769,16 @@ h4 {
     display: grid;
     grid-template-columns: 40% 40%;
     grid-template-rows: 1fr;
-    width: 80vw;
-    margin-top: 40%;
-    gap: 150px;
+    width: 85vw;
+    margin-top: 20%;
+    gap: 7%;
     justify-items: stretch;
-    padding-left: 10%;
+    padding-left: 0;
     align-items: center;
-    justify-content: space-evenly;
+    align-content: space-between;
+    justify-content: start;
+    border-radius: 22px;
+    background-color: white;
   }
 
   .headline-1 {
@@ -798,7 +826,7 @@ h4 {
 
 @media only screen and (min-width: 1024px) {
   .page-5-desktop p {
-    width: 70%;
+    width: 39vw;
   }
 
   .container-last {
@@ -822,16 +850,31 @@ h4 {
   }
 }
 
+
+
 @media only screen and (min-width: 1440px) {
-  .but1 {
-    margin-top: -200px;
+
+  .poster-test {
+    margin-left: 30px;
   }
 
   .container-last {
     padding-left: 150px;
   }
 
+  .but1 {
+  float: left;
+  left: 10%;
+  }
+
+  .page-2-desktop p {
+   width: 35vw;
+  }
+
   .page-3-desktop p {
     width: 35vw;
   }
 }
+
+
+
