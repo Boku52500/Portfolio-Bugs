@@ -71,6 +71,11 @@ body {
   line-height: 20px;
   align-items: center;
   color: #6070ff;
+  transition: 1s;
+}
+
+.logo:hover {
+  transform: translate(50px, 1px) scale(1.2);
 }
 
 .lets-connect {
@@ -644,6 +649,15 @@ form {
     margin-right: 20%;
   }
 
+  .sticky a {
+    transition: transform 1s;
+  }
+
+  .sticky a:hover {
+    transform: scale(1.2);
+    color: blue;
+  }
+
   .header {
     display: flex;
     position: fixed;
@@ -731,24 +745,44 @@ form {
     display: flex;
     padding: 6%;
     width: 37vw;
+    transition: transform 2s;
+  }
+
+  .desktop-poster1:hover {
+    transform: translate(-20px, 0);
   }
 
   .desktop-poster2 {
     display: flex;
     padding: 11%;
     width: 37vw;
+    transition: transform 2s;
+  }
+
+  .desktop-poster2:hover {
+    transform: translate(20px, 0);
   }
 
   .desktop-poster3 {
     display: flex;
     padding: 17px;
     width: 34vw;
+    transition: transform 2s;
+  }
+
+  .desktop-poster3:hover {
+    transform: translate(-20px, 0);
   }
 
   .desktop-poster4 {
     display: flex;
     padding: 17%;
     width: 35vw;
+    transition: transform 2s;
+  }
+
+  .desktop-poster4:hover {
+    transform: translate(10px, 0);
   }
 
   .second-grid {
