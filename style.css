@@ -749,7 +749,7 @@ form {
   }
 
   .desktop-poster1:hover {
-    transform: translate(-20px, 0px);
+    transform: translate(-20px, 0);
   }
 
   .desktop-poster2 {
@@ -760,7 +760,7 @@ form {
   }
 
   .desktop-poster2:hover {
-    transform: translate(20px, 0px);
+    transform: translate(20px, 0);
   }
 
   .desktop-poster3 {
@@ -771,7 +771,7 @@ form {
   }
 
   .desktop-poster3:hover {
-    transform: translate(-20px, 0px);
+    transform: translate(-20px, 0);
   }
 
   .desktop-poster4 {
@@ -782,7 +782,7 @@ form {
   }
 
   .desktop-poster4:hover {
-    transform: translate(10px, 0px);
+    transform: translate(10px, 0);
   }
 
   .second-grid {
