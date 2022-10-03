@@ -7,14 +7,14 @@
 ## Built With
 
 - HTML
-- CSS
+- CSSY
 - CSS Flexbox
 - CSS Grid
 - Formspree
 
 ## Live Demo (if available)
 
-
+You can check out the live version of my Portfolio with this (link.)[https://boku52500.github.io/Portfolio/]
 
 ## Getting Started
 
