@@ -563,6 +563,10 @@ form {
   margin-bottom: 100px;
 }
 
+.display-none {
+  display: none;  
+}
+
 .menu-dropdown {
   position: absolute;
   left: 0;
@@ -608,10 +612,6 @@ form {
 .isolate {
   isolation: isolate;
   z-index: 3;
-}
-
-.menu-dropdown li {
-
 }
 
 .menu-dropdown li a {

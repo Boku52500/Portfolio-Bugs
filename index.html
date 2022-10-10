@@ -20,21 +20,19 @@
             <div class="wrapper">
                 <nav class="header">
                     <a class="logo" href="#">My Logo</a>
-                    <img src="Pictures/Union.png" alt="">
+                    <img id="hamb-button" src="Pictures/Union.png" alt="">
                     <div class="sticky">
                         <a class="p-1" href="">Portfolio</a>
                         <a class="p-1" href="">About</a>
                         <a class="p-1" href="">Contact</a>
                     </div>
-                    <div class="blend"></div>
-                    <div class="menu-dropdown">
-                        
-                       
+                    <div class="blend display-none" id="menuBackground"></div>
+                    <div class="menu-dropdown display-none" id="menuContent">
                           <button class="close-but">&#10799;</button>
                           <ul>
-                            <li><a class="dropdowns" href="#">Portfolio</a></li>
-                            <li><a class="dropdowns" href="#">About</a></li>
-                            <li><a class="dropdowns" href="#">Contact</a></li>
+                            <li><a class="dropdowns display-none" href="#portfolio">Portfolio</a></li>
+                            <li><a class="dropdowns display-none" href="#about">About</a></li>
+                            <li><a class="dropdowns display-none" href="#contact">Contact</a></li>
                         </ul>
                     
                          
@@ -75,7 +73,7 @@
 
         <main>
 
-            <section class="page-2">
+            <section class="page-2" id="portfolio">
                 <div class="snapshot">
                     <img src="Pictures/snapshot.png" alt="">
                 </div>
@@ -321,7 +319,7 @@
 
     <div class="headline-1">
         <div class="container-last">
-            <section class="aboutme">
+            <section class="aboutme" id="about">
                 <div class="headline">
                     <div class="headline-heading">
                         <h1>About myself</h1>
@@ -410,7 +408,7 @@
 
 
     </div>
-    <section class="contact">
+    <section class="contact" id="contact">
         <form action="https://formspree.io/f/xnqrdyay" method="POST">
             <h4>Contact me</h4>
             <p class="contact-para">If you have an application
@@ -429,5 +427,5 @@
     </section>
 
 </body>
-
+<script src="script.js"></script>
 </html>
