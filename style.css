@@ -573,9 +573,19 @@ form {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+
+}
+
+.blend {
   background: #6070ff;
   mix-blend-mode: multiply;
   backdrop-filter: blur(5px);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  height: 100vh;
+  width: 100%;
 }
 
 .close-but {
@@ -584,11 +594,33 @@ form {
   border: 0;
   color: white;
   font-size: 24px;
-  padding: 24px;
+  padding: 24px 36px 24px 24px;
 }
 
 .menu-dropdown ul {
-  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 28px;
+  gap: 40px;
+}
+
+.isolate {
+  isolation: isolate;
+  z-index: 3;
+}
+
+.menu-dropdown li {
+
+}
+
+.menu-dropdown li a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 600;
+  color: #fff;
 }
 
 .page-3-desktop {
