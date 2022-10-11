@@ -582,7 +582,7 @@ form {
   width: 100%;
 }
 
-.close-but {
+.closeButton {
   align-self: flex-end;
   background: none;
   border: 0;
