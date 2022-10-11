@@ -14,11 +14,9 @@ body {
   background-color: #e5e5e5;
   height: 99vh;
   width: 100%;
-  margin-bottom: 140px;
 }
 
 .wrapper {
-  width: 100%;
   background-color: white;
   border-bottom-left-radius: 80px;
   padding-left: 41px;
@@ -183,7 +181,6 @@ h3 {
   background: #ebebff;
   border-radius: 8px;
   color: #6070ff;
-  gap: px;
   letter-spacing: 0.03em;
 }
 
@@ -195,7 +192,6 @@ h3 {
   background: #ebebff;
   border-radius: 8px;
   color: #6070ff;
-  gap: px;
   letter-spacing: 0.03em;
 }
 
@@ -316,7 +312,6 @@ h6 {
   color: #000;
   margin-top: 30px;
   margin-left: 10px;
-  justify-items: space-between;
 }
 
 .down {
@@ -378,7 +373,6 @@ h6 {
   color: #000;
   margin-top: 280px;
   margin-left: 10px;
-  justify-items: space-between;
 }
 
 .page-3 {
@@ -409,14 +403,14 @@ h6 {
   display: grid;
   grid-template-columns: 1fr;
   background-color: white;
-  width: 100vw;
-  margin-left: 68px;
   border-top-right-radius: 80px;
   padding-bottom: 200px;
+  padding-left: 20px;
 }
 
 .headline-1 {
   background-color: white;
+  border-top-right-radius: 80px;
 }
 
 .skills1 {
@@ -429,7 +423,6 @@ h6 {
   color: #000;
   margin-top: 0;
   margin-left: 10px;
-  justify-items: space-between;
 }
 
 .skills {
@@ -446,15 +439,16 @@ main {
   display: grid;
   grid-template-columns: 80%;
   background-color: #e5e5e5;
-  justify-content: end;
+  justify-content: center;
   width: 100%;
+  margin-top: 25%;
 }
 
 .contact {
   display: grid;
   grid-template-columns: 100%;
   width: 100%;
-  padding-top: 80px;
+  background-color: #fff;
 }
 
 h4 {
@@ -466,18 +460,13 @@ h4 {
   color: white;
 }
 
-.contact h4 {
-  margin-left: -10%;
-}
-
 .move-last {
   margin-left: -1%;
 }
 
 form {
   font-family: "Poppins", sans-serif;
-  display: grid;
-  grid-template-columns: 100%;
+  display: flex;
   background-image: url(contact-background.png);
   background-size: 60%;
   background-repeat: no-repeat;
@@ -485,10 +474,9 @@ form {
   align-items: center;
   background-color: #6070ff;
   border-top-left-radius: 100px;
-  width: 100%;
   justify-items: center;
-  padding-left: 70px;
-  margin-top: -50%;
+  flex-direction: column;
+  padding: 24px;
 }
 
 .contact-para {
@@ -500,30 +488,28 @@ form {
   margin-top: -20px;
   width: 330px;
   color: white;
-  margin-left: -17%;
 }
 
 .input {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   height: 48px;
-  width: 327px;
   margin-bottom: 20px;
   padding-inline: 16px;
   color: #000205;
+  width: 86%;
 }
 
 .text-area {
   height: 170px;
-  width: 327px;
   border-radius: 8px;
   padding-inline: 16px;
   padding-top: 16px;
   color: #b3bac5;
+  width: 86%;
 }
 
 .submit {
-  display: flex;
   cursor: pointer;
   border-radius: 8px;
   border: 1px solid;
@@ -536,7 +522,7 @@ form {
   margin-bottom: 40px;
   color: #6070ff;
   width: 140px;
-  margin-right: 66%;
+  align-self: flex-start;
 }
 
 .frames-end {
@@ -563,6 +549,61 @@ form {
   margin-bottom: 100px;
 }
 
+.menu-dropdown {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.blend {
+  background: #6070ff;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(5px);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  height: 100vh;
+  width: 100%;
+}
+
+.closeButton {
+  align-self: flex-end;
+  background: none;
+  border: 0;
+  color: white;
+  font-size: 24px;
+  padding: 24px 36px 24px 24px;
+}
+
+.menu-dropdown ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 28px;
+  gap: 40px;
+}
+
+.isolate {
+  isolation: isolate;
+  z-index: 3;
+}
+
+.menu-dropdown li a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 600;
+  color: #fff;
+}
+
 .page-3-desktop {
   display: none;
 }
@@ -582,7 +623,6 @@ form {
     width: 93vw;
     gap: 70px;
     justify-content: center;
-    margin-left: 49px;
     padding-bottom: 240px;
   }
 
@@ -590,6 +630,7 @@ form {
     display: grid;
     grid-template-columns: 80%;
     grid-template-rows: 1fr;
+    margin-top: 8%;
     justify-content: center;
   }
 
@@ -707,6 +748,7 @@ form {
   .wrapper {
     padding: 0%;
     background-image: url(Header-1.svg);
+    min-height: 100vh;
   }
 
   .wrapper h1 {
@@ -856,7 +898,6 @@ form {
     background: #ebebff;
     border-radius: 8px;
     color: #6070ff;
-    gap: px;
     letter-spacing: 0.03em;
   }
 
@@ -971,7 +1012,7 @@ form {
   }
 
   .submit {
-    margin-right: 10px;
+    align-self: center;
   }
 
   .move-last {
@@ -984,7 +1025,6 @@ form {
 @media only screen and (min-width: 1024px) {
   main {
     margin-left: unset;
-    margin-top: unset;
   }
 
   .page-5-desktop p {
@@ -1111,4 +1151,8 @@ form {
   .headline {
     height: 50%;
   }
+}
+
+.display-none {
+  display: none;
 }

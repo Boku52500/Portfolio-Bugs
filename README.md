@@ -11,6 +11,7 @@
 - CSS Flexbox
 - CSS Grid
 - Formspree
+- JavaScript
 
 ## Live Demo (if available)
 
@@ -33,8 +34,11 @@ I have used HTML,CSS,Flexbox,Grid.
 
 👤 **Author2**
 
-- GitHub: [@sebalp100](https://github.com/sebalp100)
-- LinkedIn: [Sebastian Martin](https://www.linkedin.com/in/sebastian-martin-956b2724a/)
+- GitHub: [@Sparktan24](https://github.com/Sparktan24)
+
+👤 **Author3**
+
+- GitHub: [@mperezbazan](https://github.com/mperezbazan)
 
 
 
