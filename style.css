@@ -14,11 +14,9 @@ body {
   background-color: #e5e5e5;
   height: 99vh;
   width: 100%;
-  margin-bottom: 140px;
 }
 
 .wrapper {
-  width: 100%;
   background-color: white;
   border-bottom-left-radius: 80px;
   padding-left: 41px;
@@ -409,14 +407,14 @@ h6 {
   display: grid;
   grid-template-columns: 1fr;
   background-color: white;
-  width: 100vw;
-  margin-left: 68px;
   border-top-right-radius: 80px;
   padding-bottom: 200px;
+  padding-left: 20px;
 }
 
 .headline-1 {
   background-color: white;
+  border-top-right-radius: 80px;
 }
 
 .skills1 {
@@ -446,7 +444,7 @@ main {
   display: grid;
   grid-template-columns: 80%;
   background-color: #e5e5e5;
-  justify-content: end;
+  justify-content: center;
   width: 100%;
 }
 
@@ -454,7 +452,7 @@ main {
   display: grid;
   grid-template-columns: 100%;
   width: 100%;
-  padding-top: 80px;
+  background-color: #fff;
 }
 
 h4 {
@@ -466,18 +464,13 @@ h4 {
   color: white;
 }
 
-.contact h4 {
-  margin-left: -10%;
-}
-
 .move-last {
   margin-left: -1%;
 }
 
 form {
   font-family: "Poppins", sans-serif;
-  display: grid;
-  grid-template-columns: 100%;
+  display: flex;
   background-image: url(contact-background.png);
   background-size: 60%;
   background-repeat: no-repeat;
@@ -485,10 +478,9 @@ form {
   align-items: center;
   background-color: #6070ff;
   border-top-left-radius: 100px;
-  width: 100%;
   justify-items: center;
-  padding-left: 70px;
-  margin-top: -50%;
+  flex-direction: column;
+  padding: 24px;
 }
 
 .contact-para {
@@ -499,31 +491,29 @@ form {
   text-align: center;
   margin-top: -20px;
   width: 330px;
-  color: white;
-  margin-left: -17%;
+  color: white;  
 }
 
 .input {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   height: 48px;
-  width: 327px;
   margin-bottom: 20px;
   padding-inline: 16px;
   color: #000205;
+  width: 86%;
 }
 
 .text-area {
   height: 170px;
-  width: 327px;
   border-radius: 8px;
   padding-inline: 16px;
   padding-top: 16px;
   color: #b3bac5;
+  width: 86%;
 }
 
 .submit {
-  display: flex;
   cursor: pointer;
   border-radius: 8px;
   border: 1px solid;
@@ -536,7 +526,7 @@ form {
   margin-bottom: 40px;
   color: #6070ff;
   width: 140px;
-  margin-right: 66%;
+  align-self: flex-start;
 }
 
 .frames-end {
@@ -767,6 +757,7 @@ form {
   .wrapper {
     padding: 0%;
     background-image: url(Header-1.svg);
+    min-height: 100vh;
   }
 
   .wrapper h1 {
@@ -1031,7 +1022,7 @@ form {
   }
 
   .submit {
-    margin-right: 10px;
+    align-self: center;
   }
 
   .move-last {
