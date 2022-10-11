@@ -406,13 +406,11 @@ h6 {
 }
 
 .container-last {
-  display: grid;
-  grid-template-columns: 1fr;
-  background-color: white;
-  width: 100vw;
-  margin-left: 68px;
-  border-top-right-radius: 80px;
-  padding-bottom: 200px;
+  padding-bottom: 50%;
+}
+
+.aboutme p {
+  width: 80%;
 }
 
 .headline-1 {
@@ -467,11 +465,11 @@ h4 {
 }
 
 .contact h4 {
-  margin-left: -10%;
+  margin-left: -20%;
 }
 
 .move-last {
-  margin-left: -1%;
+  margin-left: 0;
 }
 
 form {
@@ -485,7 +483,6 @@ form {
   align-items: center;
   background-color: #6070ff;
   border-top-left-radius: 100px;
-  width: 100%;
   justify-items: center;
   padding-left: 70px;
   margin-top: -50%;
@@ -498,26 +495,26 @@ form {
   line-height: 28px;
   text-align: center;
   margin-top: -20px;
-  width: 330px;
+  width: 100%;
   color: white;
-  margin-left: -17%;
+  margin-left: -19%;
 }
 
 .input {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   height: 48px;
-  width: 327px;
+  width: 72%;
   margin-bottom: 20px;
-  padding-inline: 16px;
+  padding-inline: 5%;
   color: #000205;
 }
 
 .text-area {
   height: 170px;
-  width: 327px;
+  width: 73%;
   border-radius: 8px;
-  padding-inline: 16px;
+  padding-inline: 5%;
   padding-top: 16px;
   color: #b3bac5;
 }
@@ -536,7 +533,7 @@ form {
   margin-bottom: 40px;
   color: #6070ff;
   width: 140px;
-  margin-right: 66%;
+  margin-right: 19%;
 }
 
 .frames-end {
