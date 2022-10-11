@@ -446,6 +446,7 @@ main {
   background-color: #e5e5e5;
   justify-content: end;
   width: 100%;
+  margin-top: 30%;
 }
 
 .contact {
@@ -560,10 +561,6 @@ form {
   margin-bottom: 100px;
 }
 
-.display-none {
-  display: none;  
-}
-
 .menu-dropdown {
   position: absolute;
   left: 0;
@@ -589,12 +586,13 @@ form {
   width: 100%;
 }
 
-.close-but {
+.closeButton {
   align-self: flex-end;
   background: none;
   border: 0;
   color: white;
   font-size: 24px;
+  margin-left: 340px;
   padding: 24px 36px 24px 24px;
 }
 
@@ -639,7 +637,6 @@ form {
     width: 93vw;
     gap: 70px;
     justify-content: center;
-    margin-left: 49px;
     padding-bottom: 240px;
   }
 
@@ -1041,7 +1038,7 @@ form {
 @media only screen and (min-width: 1024px) {
   main {
     margin-left: unset;
-    margin-top: unset;
+    margin-top: 3%;
   }
 
   .page-5-desktop p {
@@ -1168,4 +1165,8 @@ form {
   .headline {
     height: 50%;
   }
+}
+
+.display-none {
+  display: none;  
 }
