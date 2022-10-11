@@ -1,4 +1,4 @@
-let closeBtn = document.querySelector('.closeButton');
+const closeBtn = document.querySelector('.closeButton');
 closeBtn.addEventListener('click', () => {
     let menuBackground = document.querySelector('#menuBackground');
     menuBackground.classList.add('display-none');
