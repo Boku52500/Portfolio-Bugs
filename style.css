@@ -553,10 +553,6 @@ form {
   margin-bottom: 100px;
 }
 
-.display-none {
-  display: none;  
-}
-
 .menu-dropdown {
   position: absolute;
   left: 0;
@@ -1162,4 +1158,8 @@ form {
   .headline {
     height: 50%;
   }
+}
+
+.display-none {
+  display: none;  
 }
