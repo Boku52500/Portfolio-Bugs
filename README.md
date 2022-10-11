@@ -11,6 +11,7 @@
 - CSS Flexbox
 - CSS Grid
 - Formspree
+- JavaScript
 
 ## Live Demo (if available)
 
