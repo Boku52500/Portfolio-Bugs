@@ -38,3 +38,150 @@ menuLink.forEach((item) => {
     });
   });
 });
+
+const projects = [
+  {
+    name: 'Tonic',
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    descriptionMobile: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    descriptionDesktop: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    image: 'Pictures/snapshot.png',
+    imageDesktop: 'Pictures/snap-desktop1.png',
+    technologies: ['html', 'css', 'javascript'],
+    liveLink: '',
+    sourceLink: '',
+  },
+  {
+    name: 'Multi-Post Stories',
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    descriptionMobile: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    descriptionDesktop: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    image: 'Pictures/snapshot2.png',
+    imageDesktop: 'Pictures/snap-desktop2.png',
+    technologies: ['html', 'css', 'javascript'],
+    liveLink: '',
+    sourceLink: '',
+  },
+  {
+    name: 'Tonic',
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    descriptionMobile: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    descriptionDesktop: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    image: 'Pictures/snapshot3.png',
+    imageDesktop: 'Pictures/snap-desktop3.png',
+    technologies: ['html', 'css', 'javascript'],
+    liveLink: '',
+    sourceLink: '',
+  },
+  {
+    name: 'Multi-Post Stories',
+    description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    descriptionMobile: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    descriptionDesktop: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    image: 'Pictures/snapshot4.png',
+    imageDesktop: 'Pictures/snap-desktop4.png',
+    technologies: ['html', 'css', 'javascript'],
+    liveLink: '',
+    sourceLink: '',
+  },
+]
+
+const main = document.querySelector('main');
+projects.forEach((project, index) => {
+  const section = document.createElement('section');
+  const sectionDesktop = document.createElement('section');
+  const numberProject = index + 2;
+  const classTextMobile = `page-${numberProject}`;
+  const classTextDesktop = `page-${numberProject}-desktop`;
+  section.classList.add(classTextMobile);
+  sectionDesktop.classList.add(classTextDesktop);
+  let secondGrid = '';
+  if(index === 0){
+    section.id='portfolio';
+  }else{
+    secondGrid=index;
+  };
+  let textMobile = '';
+  let textDesktop = '';
+  textMobile += `
+    <div class="snapshot">
+      <img src="${project.image}" alt="">
+    </div>
+    <h2>${project.name}</h2>
+    <div class="bullets">
+        <h3>CANOPY</h3>
+        <ul class="bullets1">
+            <li>Back End Dev</li>
+            <li>2015</li>
+        </ul>
+    </div>
+    <div class="second-para">
+        <p>${project.description}</p>
+    </div>
+    <div class="alltext">
+        <ul>
+            <li class="text1">html</li>
+            <li class="text2">css</li>
+            <li class="text3">javaScript</li>
+        </ul>
+    </div>
+    <button class="but">See Project</button>
+  `;
+  textDesktop += `
+    <img class="desktop-poster${index+1}" src="${project.imageDesktop}" alt="">
+    <div class="second-grid${secondGrid}">
+        <h2>${project.name}</h2>
+        <div class="bullets">
+            <h3>CANOPY</h3>
+            <ul class="bullets1">
+                <li>Back End Dev</li>
+                <li>2015</li>
+            </ul>
+        </div>
+        <div class="second-para">
+            <p>${project.description}</p>
+        </div>
+        <div class="alltext">
+            <ul>
+                <li class="text1">html</li>
+                <li class="text2">css</li>
+                <li class="text3">javaScript</li>
+            </ul>
+        </div>
+        <button class="but">See Project</button>
+    </div>
+  `
+  textDesktop2 = `
+                <div class="second-grid1">
+                    <h2>${project.name}</h2>
+                    <div class="bullets">
+                        <h3>FACEBOOK</h3>
+                        <ul class="bullets1">
+                            <li>Full Stack Dev</li>
+                            <li>2015</li>
+                        </ul>
+                    </div>
+                    <div class="second-para">
+                        <p>${project.description}</p>
+                    </div>
+                    <div class="alltext1">
+                        <ul>
+                            <li class="text1">html</li>
+                            <li class="text4">Ruby on rails</li>
+                            <li class="text2">css</li>
+                            <li class="text3">javaScript</li>
+                        </ul>
+                    </div>
+                    <button class="but">See Project</button>
+                </div>
+                <img class="desktop-poster2" src="${project.imageDesktop}" alt="">
+            `;
+  section.innerHTML = textMobile;
+  if(index===1 || index===3){
+    sectionDesktop.innerHTML = textDesktop2;
+  }else{
+    sectionDesktop.innerHTML = textDesktop;
+  }
+  main.appendChild(section);
+  main.appendChild(sectionDesktop);
+})
