@@ -151,7 +151,7 @@ h3 {
   margin-left: 2px;
 }
 
-.second-para>p {
+.second-para > p {
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -1252,10 +1252,6 @@ img#module-desktop-snap {
   max-width: 300px;
   padding: 0;
 }
-
-.move-module {}
-
-.module-desktop {}
 
 .module1 {
   margin-left: 20%;
