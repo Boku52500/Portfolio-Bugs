@@ -1193,6 +1193,7 @@ form {
   align-items: flex-start;
   background-color: white;
   border-radius: 2%;
+  margin: 7%;
 }
 
 .module-desktop .second-grid {
@@ -1200,12 +1201,42 @@ form {
 }
 
 .module-desktop-snap {
-  width: 235%;
+  width: 199%;
   margin-left: 8%;
+}
+
+.module-desktop p {
+  display: flex;
+  flex-direction: row;
+  font-size: 22px;
 }
 
 .module-grid {
   display: flex;
-  width: 229%;
+  width: 150%;
   margin: 8%;
+}
+
+.allte ul {
+  display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-left: 11%;
+    max-width: 300px;
+}
+
+.move-module {
+  margin-left: 7%;
+}
+
+.module-desktop {
+  display: none;
+}
+
+.module1 {
+  margin-left: 20%;
+}
+
+.module2 {
+  margin-left: 5%;
 }
