@@ -151,7 +151,7 @@ projects.forEach((project, index) => {
         <button class="but" id="btn-${index}">See Project</button>
     </div>
   `;
- const text2 = `
+  const text2 = `
                 <div class="second-grid1">
                     <h2>${project.name}</h2>
                     <div class="bullets">
