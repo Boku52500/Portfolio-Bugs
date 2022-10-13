@@ -127,7 +127,7 @@ projects.forEach((project, index) => {
     </div>
     <button class="but" id="btn-${index}">See Project</button>
   `;
-  textDesktop += `
+  textDesktop = `
     <img class="desktop-poster${index + 1}" src="${project.imageDesktop}" alt="">
     <div class="second-grid${secondGrid}">
         <h2>${project.name}</h2>
@@ -151,7 +151,7 @@ projects.forEach((project, index) => {
         <button class="but" id="btn-${index}">See Project</button>
     </div>
   `;
-  textDesktop2 = `
+  text2 = `
                 <div class="second-grid1">
                     <h2>${project.name}</h2>
                     <div class="bullets">
@@ -178,13 +178,13 @@ projects.forEach((project, index) => {
             `;
   section.innerHTML = textMobile;
   if (index === 1 || index === 3) {
-    sectionDesktop.innerHTML = textDesktop2;
+    sectionDesktop.innerHTML = text2;
   } else {
     sectionDesktop.innerHTML = textDesktop;
   }
   main.appendChild(section);
   main.appendChild(sectionDesktop);
-})
+});
 
 const modalBack = document.querySelector('.modal-back');
 const modalClose = document.querySelectorAll('.modal-close');
@@ -196,8 +196,8 @@ modalClose.forEach((button) => {
     modalDesktop.classList.add('display-none');
     modalMobile.classList.add('display-none');
     modalBack.classList.add('display-none');
-  })
-})
+  });
+});
 
 const projectButtons = document.querySelectorAll('.but');
 projectButtons.forEach((button) => {
@@ -217,5 +217,5 @@ projectButtons.forEach((button) => {
     modalBack.classList.remove('display-none');
     modalMobile.classList.remove('display-none');
     modalDesktop.classList.remove('display-none');
-  })
+  });
 });
