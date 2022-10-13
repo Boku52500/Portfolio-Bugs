@@ -42,7 +42,7 @@ menuLink.forEach((item) => {
 const projects = [
   {
     name: 'Tonic',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     descriptionMobile: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     descriptionDesktop: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     image: 'Pictures/snapshot.png',
@@ -53,7 +53,7 @@ const projects = [
   },
   {
     name: 'Multi-Post Stories',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     descriptionMobile: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     descriptionDesktop: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     image: 'Pictures/snapshot2.png',
@@ -64,7 +64,7 @@ const projects = [
   },
   {
     name: 'Tonic',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     descriptionMobile: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     descriptionDesktop: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     image: 'Pictures/snapshot3.png',
@@ -75,7 +75,7 @@ const projects = [
   },
   {
     name: 'Multi-Post Stories',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     descriptionMobile: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
     descriptionDesktop: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     image: 'Pictures/snapshot4.png',
@@ -84,7 +84,7 @@ const projects = [
     liveLink: '',
     sourceLink: '',
   },
-]
+];
 
 const main = document.querySelector('main');
 projects.forEach((project, index) => {
@@ -96,11 +96,11 @@ projects.forEach((project, index) => {
   section.classList.add(classTextMobile);
   sectionDesktop.classList.add(classTextDesktop);
   let secondGrid = '';
-  if(index === 0){
-    section.id='portfolio';
-  }else{
-    secondGrid=index;
-  };
+  if (index === 0) {
+    section.id = 'portfolio';
+  } else {
+    secondGrid = index;
+  }
   let textMobile = '';
   let textDesktop = '';
   textMobile += `
@@ -128,7 +128,7 @@ projects.forEach((project, index) => {
     <button class="but" id="btn-${index}">See Project</button>
   `;
   textDesktop += `
-    <img class="desktop-poster${index+1}" src="${project.imageDesktop}" alt="">
+    <img class="desktop-poster${index + 1}" src="${project.imageDesktop}" alt="">
     <div class="second-grid${secondGrid}">
         <h2>${project.name}</h2>
         <div class="bullets">
@@ -150,7 +150,7 @@ projects.forEach((project, index) => {
         </div>
         <button class="but" id="btn-${index}">See Project</button>
     </div>
-  `
+  `;
   textDesktop2 = `
                 <div class="second-grid1">
                     <h2>${project.name}</h2>
@@ -177,25 +177,22 @@ projects.forEach((project, index) => {
                 <img class="desktop-poster2" src="${project.imageDesktop}" alt="">
             `;
   section.innerHTML = textMobile;
-  if(index===1 || index===3){
+  if (index === 1 || index === 3) {
     sectionDesktop.innerHTML = textDesktop2;
-  }else{
+  } else {
     sectionDesktop.innerHTML = textDesktop;
   }
   main.appendChild(section);
   main.appendChild(sectionDesktop);
 })
 
-
-
-
 const modalBack = document.querySelector('.modal-back');
 const modalClose = document.querySelectorAll('.modal-close');
 const modalDesktop = document.querySelector('.module-desktop');
 const modalMobile = document.querySelector('.modules');
 
-modalClose.forEach ( (button)=>{
-  button.addEventListener('click', ()=>{
+modalClose.forEach((button) => {
+  button.addEventListener('click', () => {
     modalDesktop.classList.add('display-none');
     modalMobile.classList.add('display-none');
     modalBack.classList.add('display-none');
@@ -206,12 +203,12 @@ const projectButtons = document.querySelectorAll('.but');
 projectButtons.forEach((button) => {
   button.addEventListener('click', (e) => {
     const { id } = e.target;
-    const index = id.replace('btn-','');
+    const index = id.replace('btn-', '');
     const titleMobile = modalMobile.querySelector('#modal-title-mobile');
     const titleDesktop = modalDesktop.querySelector('#modal-title-desktop');
     titleMobile.textContent = projects[index].name;
     titleDesktop.textContent = projects[index].name;
-    
+
     const imgMobile = modalMobile.querySelector('#module-poster');
     const imgDesktop = modalDesktop.querySelector('#module-desktop-snap');
     imgMobile.src = projects[index].image;
