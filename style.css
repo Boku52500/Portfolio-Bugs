@@ -1187,7 +1187,11 @@ form {
 }
 
 img#module-poster {
-  margin: 5%
+  margin: 5%;
+}
+
+img#module-desktop-snap {
+  width: 100%;
 }
 
 .module-desktop {

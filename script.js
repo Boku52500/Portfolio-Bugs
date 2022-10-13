@@ -213,9 +213,9 @@ projectButtons.forEach((button) => {
     titleDesktop.textContent = projects[index].name;
     
     const imgMobile = modalMobile.querySelector('#module-poster');
-    //const imgDesktop = modalDesktop.querySelector('#modal-image-desktop');
+    const imgDesktop = modalDesktop.querySelector('#module-desktop-snap');
     imgMobile.src = projects[index].image;
-    //imgDesktop.src = projects[index].imageDesktop;
+    imgDesktop.src = projects[index].imageDesktop;
 
     modalBack.classList.remove('display-none');
     modalMobile.classList.remove('display-none');
