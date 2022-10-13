@@ -125,7 +125,7 @@ projects.forEach((project, index) => {
             <li class="text3">javaScript</li>
         </ul>
     </div>
-    <button class="but">See Project</button>
+    <button class="but" id="btn-${index}">See Project</button>
   `;
   textDesktop += `
     <img class="desktop-poster${index+1}" src="${project.imageDesktop}" alt="">
@@ -148,7 +148,7 @@ projects.forEach((project, index) => {
                 <li class="text3">javaScript</li>
             </ul>
         </div>
-        <button class="but">See Project</button>
+        <button class="but" id="btn-${index}">See Project</button>
     </div>
   `
   textDesktop2 = `
@@ -172,7 +172,7 @@ projects.forEach((project, index) => {
                             <li class="text3">javaScript</li>
                         </ul>
                     </div>
-                    <button class="but">See Project</button>
+                    <button class="but" id="btn-${index}">See Project</button>
                 </div>
                 <img class="desktop-poster2" src="${project.imageDesktop}" alt="">
             `;
@@ -185,3 +185,36 @@ projects.forEach((project, index) => {
   main.appendChild(section);
   main.appendChild(sectionDesktop);
 })
+const modalBack = document.querySelector('.modal-back');
+const modalClose = document.querySelectorAll('.modal-close');
+const modalDesktop = document.querySelector('.module-desktop');
+const modalMobile = document.querySelector('.modules');
+
+modalClose.forEach ( (button)=>{
+  button.addEventListener('click', ()=>{
+    modalDesktop.classList.add('display-none');
+    modalMobile.classList.add('display-none');
+    modalBack.classList.add('display-none');
+  })
+})
+
+const projectButtons = document.querySelectorAll('.but');
+projectButtons.forEach((button) => {
+  button.addEventListener('click', (e) => {
+    const { id } = e.target;
+    const index = id.replace('btn-','');
+    const titleMobile = modalMobile.querySelector('#modal-title-mobile');
+    const titleDesktop = modalDesktop.querySelector('#modal-title-desktop');
+    titleMobile.textContent = projects[index].name;
+    titleDesktop.textContent = projects[index].name;
+    
+    //const imgMobile = modalMobile.querySelector('#modal-image-mobile');
+    //const imgDesktop = modalDesktop.querySelector('#modal-image-desktop');
+    //imgMobile.src = projects[index].image;
+    //imgDesktop.src = projects[index].imageDesktop;
+
+    modalBack.classList.remove('display-none');
+    modalMobile.classList.remove('display-none');
+    modalDesktop.classList.remove('display-none');
+  })
+});
