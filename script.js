@@ -185,6 +185,10 @@ projects.forEach((project, index) => {
   main.appendChild(section);
   main.appendChild(sectionDesktop);
 })
+
+
+
+
 const modalBack = document.querySelector('.modal-back');
 const modalClose = document.querySelectorAll('.modal-close');
 const modalDesktop = document.querySelector('.module-desktop');
@@ -208,9 +212,9 @@ projectButtons.forEach((button) => {
     titleMobile.textContent = projects[index].name;
     titleDesktop.textContent = projects[index].name;
     
-    //const imgMobile = modalMobile.querySelector('#modal-image-mobile');
+    const imgMobile = modalMobile.querySelector('#module-poster');
     //const imgDesktop = modalDesktop.querySelector('#modal-image-desktop');
-    //imgMobile.src = projects[index].image;
+    imgMobile.src = projects[index].image;
     //imgDesktop.src = projects[index].imageDesktop;
 
     modalBack.classList.remove('display-none');
