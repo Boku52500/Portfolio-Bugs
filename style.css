@@ -1156,3 +1156,56 @@ form {
 .display-none {
   display: none;
 }
+
+.modules {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+.module-sep {
+    margin-top: 25px;
+}
+
+.module-but {
+  display: flex;
+  margin-inline: 8%;
+}
+
+.closeButton-module {
+  display: flex;
+  align-self: flex-end;
+  background: none;
+  border: 0;
+  color: black;
+  font-size: 24px;
+}
+
+.module-poster {
+  margin: 5%
+}
+
+.module-desktop {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 2%;
+}
+
+.module-desktop .second-grid {
+  margin-left: 0;
+}
+
+.module-desktop-snap {
+  width: 235%;
+  margin-left: 8%;
+}
+
+.module-grid {
+  display: flex;
+  width: 229%;
+  margin: 8%;
+}
