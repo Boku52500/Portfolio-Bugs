@@ -151,7 +151,7 @@ h3 {
   margin-left: 2px;
 }
 
-.second-para > p {
+.second-para>p {
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -1154,22 +1154,22 @@ form {
 }
 
 .modules {
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    background-color: white;
-    margin-bottom: 100px;
-    width: 90%;
-    position: fixed;
-    top: 14px;
-    left: 21px;
-    right: 10px;
-    bottom: -90px;
-    overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: white;
+  margin-bottom: 100px;
+  width: 90%;
+  position: fixed;
+  top: 14px;
+  left: 21px;
+  right: 10px;
+  bottom: -90px;
+  overflow-y: scroll;
 }
 
 .module-sep {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .module-but {
@@ -1214,6 +1214,7 @@ img#module-desktop-snap {
   .modules {
     display: none;
   }
+
   .module-desktop {
     display: flex;
   }
@@ -1246,19 +1247,15 @@ img#module-desktop-snap {
 
 .allte ul {
   display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    padding-left: 11%;
-    max-width: 300px;
-    padding: 0;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 300px;
+  padding: 0;
 }
 
-.move-module {
-}
+.move-module {}
 
-.module-desktop {
-  
-}
+.module-desktop {}
 
 .module1 {
   margin-left: 20%;
