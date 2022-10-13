@@ -1198,23 +1198,26 @@ form {
 
 .module-desktop .second-grid {
   margin-left: 0;
+  width: auto;
+  padding: 3%;
 }
 
 .module-desktop-snap {
-  width: 199%;
-  margin-left: 8%;
+  width: 100%;
 }
 
 .module-desktop p {
   display: flex;
   flex-direction: row;
   font-size: 22px;
+  margin-block: 0;
 }
 
 .module-grid {
   display: flex;
-  width: 150%;
-  margin: 8%;
+  margin-top: 8%;
+  gap: 4%;
+  margin-bottom: 5%;
 }
 
 .allte ul {
@@ -1223,14 +1226,14 @@ form {
     gap: 10px;
     padding-left: 11%;
     max-width: 300px;
+    padding: 0;
 }
 
 .move-module {
-  margin-left: 7%;
 }
 
 .module-desktop {
-  display: none;
+  
 }
 
 .module1 {
@@ -1239,4 +1242,23 @@ form {
 
 .module2 {
   margin-left: 5%;
+}
+
+.module-desktop .second-para {
+  width: 70%;
+}
+
+.module-desktop .but {
+  margin-left: 0;
+}
+
+.module-but-desktop {
+  display: flex;
+  margin: 0;
+  gap: 8%;
+}
+
+.module-sep-desktop {
+  margin-top: 7%;
+  width: 85%;
 }
