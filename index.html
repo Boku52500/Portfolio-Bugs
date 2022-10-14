@@ -168,7 +168,7 @@
 
   </div>
   <section class="contact" id="contact">
-    <form action="https://formspree.io/f/xnqrdyay" method="POST">
+    <form id="contact-form" action="https://formspree.io/f/xnqrdyay" method="POST">
       <h4>Contact me</h4>
       <p class="contact-para">If you have an application
         you are interested in developing, a feature that
@@ -176,8 +176,8 @@
         needs coding. I’d love to help with it </p>
       <div class="move-last">
         <input class="input" type="text" placeholder="Your name" maxlength="30" required>
-        <input class="input" type="email" placeholder="youremail@gmail.com" required>
-        <small class="error">Please use only lowercase</small>
+        <input class="input" type="email" id="email" placeholder="youremail@gmail.com" required>
+        <small class="error"></small>
         <textarea class="text-area" name="comment" placeholder="Write your message here" maxlength="500"
           required></textarea>
       </div>

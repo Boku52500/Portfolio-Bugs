@@ -219,3 +219,17 @@ projectButtons.forEach((button) => {
     modalDesktop.classList.remove('display-none');
   });
 });
+
+const form = document.getElementById('contact-form');
+form.addEventListener('submit', (e) => {
+e.preventDefault();
+const { email } = form.elements;
+const emailRegex = /[A-Z]/;
+const message = email.parentNode.querySelector('small');
+if (emailRegex.test(email.value)) {
+message.textContent = 'Error. You can only use Lowercase, please modify the email address and try again';
+} else {
+message.textContent = '';
+form.submit;
+}
+}); 
