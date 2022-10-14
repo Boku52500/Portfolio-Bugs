@@ -1304,3 +1304,7 @@ img#module-desktop-snap {
 .display-none {
   display: none;
 }
+
+.error {
+  color: #900;
+}

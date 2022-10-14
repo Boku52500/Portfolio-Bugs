@@ -168,7 +168,7 @@
 
   </div>
   <section class="contact" id="contact">
-    <form action="https://formspree.io/f/xnqrdyay" method="POST">
+    <form id="contact-form" action="https://formspree.io/f/xnqrdyay" method="POST">
       <h4>Contact me</h4>
       <p class="contact-para">If you have an application
         you are interested in developing, a feature that
@@ -176,113 +176,121 @@
         needs coding. I’d love to help with it </p>
       <div class="move-last">
         <input class="input" type="text" placeholder="Your name" maxlength="30" required>
-        <input class="input" type="email" placeholder="youremail@gmail.com" required>
+        <input class="input" type="email" id="email" placeholder="youremail@gmail.com" required>
+
         <textarea class="text-area" name="comment" placeholder="Write your message here" maxlength="500"
           required></textarea>
       </div>
+      <small class="error"></small>
       <button class="submit">Get in touch</button>
-
+      
     </form>
   </section>
   <div class="modal-back display-none"></div>
-    
-      <div class="module-desktop display-none">
-        <button type="button" class="modal-close">&#10799;</button>
-        <div class="second-grid">
-          <div class="move-module">
-          <h2 id="modal-title-desktop">Tonic</h2>
-          <div class="bullets">
-            <h3>CANOPY</h3>
-            <ul class="bullets1">
-              <li>Back End Dev</li>
-              <li>2015</li>
-            </ul>
-    </div>
-    
-    
-          </div>
-          <img id="module-desktop-snap" src="" alt="">
-          <div class="module-grid">
-            <div class="second-para">
-              <p id="modal-description-desktop">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn
-                printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the
-                printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-                1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
-            </div>
-            <div class="allte">
-              <ul>
-                <li class="text1">html</li>
-                <li class="text2">css</li>
-                <li class="text3">javaScript</li>
-                <li class="text1">github</li>
-                <li class="text3">ruby</li>
-                <li class="text3">Bootstraps</li>
-              </ul>
-              <img id="modal-image-desktop" class="module-sep-desktop" src="Pictures/seperator.png" alt="">
-              <div class="module-but-desktop">
-                <a id="modal-livebutton-desktop" href="https://boku52500.github.io/Portfolio/" class="but">See live <img class="module1" src="Pictures/module1.png" alt=""></a>
-                <a id="modal-sourcebutton-desktop" href="https://github.com/Boku52500/Portfolio/tree/Popup-window" class="but">See Source <img class="module2" src="Pictures/module2.png" alt=""></a>
-              </div>
-            </div>
-    
+
+  <div class="module-desktop display-none">
+    <button type="button" class="modal-close">&#10799;</button>
+    <div class="second-grid">
+      <div class="move-module">
+        <h2 id="modal-title-desktop">Tonic</h2>
+        <div class="bullets">
+          <h3>CANOPY</h3>
+          <ul class="bullets1">
+            <li>Back End Dev</li>
+            <li>2015</li>
+          </ul>
+        </div>
+
+
+      </div>
+      <img id="module-desktop-snap" src="" alt="">
+      <div class="module-grid">
+        <div class="second-para">
+          <p id="modal-description-desktop">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+            galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn
+            printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the
+            printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+            1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+        </div>
+        <div class="allte">
+          <ul>
+            <li class="text1">html</li>
+            <li class="text2">css</li>
+            <li class="text3">javaScript</li>
+            <li class="text1">github</li>
+            <li class="text3">ruby</li>
+            <li class="text3">Bootstraps</li>
+          </ul>
+          <img id="modal-image-desktop" class="module-sep-desktop" src="Pictures/seperator.png" alt="">
+          <div class="module-but-desktop">
+            <a id="modal-livebutton-desktop" href="https://boku52500.github.io/Portfolio/" class="but">See live <img
+                class="module1" src="Pictures/module1.png" alt=""></a>
+            <a id="modal-sourcebutton-desktop" href="https://github.com/Boku52500/Portfolio/tree/Popup-window"
+              class="but">See Source <img class="module2" src="Pictures/module2.png" alt=""></a>
           </div>
         </div>
-      </div>
 
+      </div>
     </div>
-    <div class="modules display-none">
-      <button type="button" class="modal-close">&#10799;</button>
-  
-      <h2 id="modal-title-mobile">Tonic</h2>
-  
-  
-  
-  
-  
-      <div class="bullets">
-  
-  
-  
-        <h3>CANOPY</h3>
-  
-        <ul class="bullets1">
-          <li>Back End Dev</li>
-          <li>2015</li>
-        </ul>
-      </div>
-  
-      <img id="module-poster" src="" alt="">
-  
-      <div class="second-para">
-        <p id="modal-description-mobile">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-          standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-          a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
-          remaining essent</p>
-      </div>
-      <div class="alltext">
-        <ul>
-          <li class="text1">html</li>
-          <li class="text2">css</li>
-          <li class="text3">javaScript</li>
-        </ul>
-      </div>
-  
-      <img id="modal-image-mobile" class="module-sep" src="Pictures/seperator.png" alt="">
-  
-      <div class="module-but">
-        <a id="modal-livebutton-mobile" href="https://boku52500.github.io/Portfolio/" class="but">See live <img class="module1" src="Pictures/module1.png" alt=""></a>
-        <a id="modal-sourcebutton-mobile" href="https://github.com/Boku52500/Portfolio/tree/Popup-window" class="but">See Source <img class="module2" src="Pictures/module2.png" alt=""></a>
-      </div>
-  
-  
+  </div>
+
+  </div>
+  <div class="modules display-none">
+    <button type="button" class="modal-close">&#10799;</button>
+
+    <h2 id="modal-title-mobile">Tonic</h2>
+
+
+
+
+
+    <div class="bullets">
+
+
+
+      <h3>CANOPY</h3>
+
+      <ul class="bullets1">
+        <li>Back End Dev</li>
+        <li>2015</li>
+      </ul>
     </div>
-  
-  
+
+    <img id="module-poster" src="" alt="">
+
+    <div class="second-para">
+      <p id="modal-description-mobile">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+        Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essent</p>
+    </div>
+    <div class="alltext">
+      <ul>
+        <li class="text1">html</li>
+        <li class="text2">css</li>
+        <li class="text3">javaScript</li>
+      </ul>
+    </div>
+
+    <img id="modal-image-mobile" class="module-sep" src="Pictures/seperator.png" alt="">
+
+    <div class="module-but">
+      <a id="modal-livebutton-mobile" href="https://boku52500.github.io/Portfolio/" class="but">See live <img
+          class="module1" src="Pictures/module1.png" alt=""></a>
+      <a id="modal-sourcebutton-mobile" href="https://github.com/Boku52500/Portfolio/tree/Popup-window" class="but">See
+        Source <img class="module2" src="Pictures/module2.png" alt=""></a>
+    </div>
+
+
+  </div>
+
+
 
 
 </body>
