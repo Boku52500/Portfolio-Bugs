@@ -1153,6 +1153,154 @@ form {
   }
 }
 
+.modules {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: white;
+  margin-bottom: 100px;
+  width: 90%;
+  position: fixed;
+  top: 14px;
+  left: 21px;
+  right: 10px;
+  bottom: -90px;
+  overflow-y: scroll;
+}
+
+.module-sep {
+  margin-top: 25px;
+}
+
+.module-but {
+  display: flex;
+  margin-inline: 8%;
+}
+
+.closeButton-module {
+  display: flex;
+  align-self: flex-end;
+  background: none;
+  border: 0;
+  color: black;
+  font-size: 24px;
+}
+
+img#module-poster {
+  margin: 5%;
+}
+
+img#module-desktop-snap {
+  width: 100%;
+}
+
+.module-desktop {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 2%;
+  margin: 7%;
+  width: 90%;
+  position: fixed;
+  left: -20px;
+  right: 20px;
+  top: -80px;
+  bottom: -80px;
+  overflow-y: scroll;
+}
+
+@media only screen and (min-width: 768px) {
+  .modules {
+    display: none;
+  }
+
+  .module-desktop {
+    display: flex;
+  }
+}
+
+.module-desktop .second-grid {
+  margin-left: 0;
+  margin-top: 0;
+  width: auto;
+  padding: 3%;
+}
+
+.module-desktop-snap {
+  width: 100%;
+}
+
+.module-desktop p {
+  display: flex;
+  flex-direction: row;
+  font-size: 22px;
+  margin-block: 0;
+}
+
+.module-grid {
+  display: flex;
+  margin-top: 8%;
+  gap: 4%;
+  margin-bottom: 5%;
+}
+
+.allte ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 300px;
+  padding: 0;
+}
+
+.module1 {
+  margin-left: 20%;
+}
+
+.module2 {
+  margin-left: 5%;
+}
+
+.module-desktop .second-para {
+  width: 70%;
+}
+
+.module-desktop .but {
+  margin-left: 0;
+}
+
+.module-but-desktop {
+  display: flex;
+  margin: 0;
+  gap: 8%;
+}
+
+.module-sep-desktop {
+  margin-top: 7%;
+  width: 85%;
+}
+
+.modal-back {
+  background-color: #c1c7d0;
+  backdrop-filter: blur(8px);
+  mix-blend-mode: multiply;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.modal-close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background: transparent;
+  color: #67798e;
+  border: 0;
+  font-size: 24px;
+}
+
 .display-none {
   display: none;
 }
