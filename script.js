@@ -204,8 +204,8 @@ projectButtons.forEach((button) => {
   button.addEventListener('click', (e) => {
     const { id } = e.target;
     const index = id.replace('btn-', '');
-    const titleMobile = modalMobile.querySelector('#modal-title-mobile');
-    const titleDesktop = modalDesktop.querySelector('#modal-title-desktop');
+    const titleMobile = modalMobile.querySelector('#modal-title-mobilee');
+    const titleDesktop = modalDesktop.querySelector('#modal-title-desktoop');
     titleMobile.textContent = projects[index].name;
     titleDesktop.textContent = projects[index].name;
 
@@ -224,12 +224,12 @@ const form = document.getElementById('contact-form');
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   const { email } = form.elements;
-  const emailRegex = /[A-Z]/;
+  const emailRegex = /[a-z]/;
   const message = form.querySelector('small');
   if (emailRegex.test(email.value)) {
     message.textContent = 'You can only use Lowercase, please modify the email address';
   } else {
     message.textContent = '';
-    form.submit();
+    form.submit;
   }
 });
